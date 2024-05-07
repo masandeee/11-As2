@@ -1,0 +1,171 @@
+@media only screen and (min-width: 1000px) {
+
+}
+
+body{
+	margin: 0;
+    padding: 0;
+	background-color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #363636;
+}
+
+p{
+	line-height: 190px;
+}
+
+a{
+	text-decoration: none;
+	color: teal;
+}
+
+/* ********************************************************************** */
+/* Menu                                                                   */
+/* ********************************************************************** */
+
+#menu{
+	background-color: #413a083a;
+	height: 90px;
+}
+
+#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center
+}
+
+#menu li{
+	display: inline-block;
+}
+
+#menu a{
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 90px;
+	color: white;
+	
+	padding: 0 40px;
+	border: none;
+	display: block;
+}
+
+#menu a:hover{
+	background-color: #5c5547;
+}
+
+/* ********************************************************************** */
+/* Header                                                                 */
+/* ********************************************************************** */
+
+#header{
+	padding: 60px 0px 100px 0;
+	background-image: url(images/191009-cooking-vegetables-al-1422.webp);
+	text-align: center;
+}
+
+#header h1{
+	letter-spacing: 0.1em;
+	font-size: 90px;
+	color: rgb(45, 43, 30);
+}
+
+#header p{ 
+	letter-spacing: 0.1em;
+	color: rgb(46, 36, 10);
+	font-style: oblique;
+	font-size: 40px;
+}
+
+button{
+	height: 50px;
+	background-color: transparent;
+	font-size: 40px;
+	text-decoration: lightgray;
+	color: #4b1111;
+}
+
+.responsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+	.responsive {
+	  width: 49.99999%;
+	  margin: 6px 0;
+	}
+  }
+  
+  @media only screen and (max-width: 500px) {
+	.responsive {
+	  width: 100%;
+	}
+  }
+  
+  .clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 280px;
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #4f3535;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+  }
+
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+images {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
